@@ -1,0 +1,297 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.fa-facebook {
+  font-size: 200px;
+  color: blue;
+}
+
+#facebook {
+  width: 100px;
+}
+
+.margin20 {
+  margin: 20px;
+}
+
+.margin-t-10 {
+  margin-top: 10%;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 15%;
+}
+
+.icons {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.icons a i {
+  font-size: 25px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.stories-container {
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  margin: 10px;
+  color: white;
+}
+
+#stories {
+  margin: 10px;
+  width: 150px;
+  height: 250px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  border-radius: 5px;
+  background-image: url(/images/Buongiorno1.jpg?3953a73c88d9af40f1f9611ef7d3082a);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#stories1 {
+  margin: 10px;
+  width: 150px;
+  height: 250px;
+  background-color: blue;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  border-radius: 5px;
+  background-image: url(/images/paesaggio.jpg?df3e3ddc52f5efe1ab442d9a9d4246cc);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#stories2 {
+  margin: 10px;
+  width: 150px;
+  height: 250px;
+  background-color: blue;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  border-radius: 5px;
+  background-image: url(/images/paesaggio1.jpg?3f1ba30605e15f0bcd68dcebb002a8e1);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#stories3 {
+  margin: 10px;
+  width: 150px;
+  height: 250px;
+  background-color: blue;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  border-radius: 5px;
+  background-image: url(/images/gattini.jpg?fb5ba2fb28b0d3a9712029d4695a6c0b);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#list-left {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+#list-left a {
+  text-decoration: none;
+  color: black;
+}
+
+#list-left i {
+  margin-top: 20px;
+}
+
+.fa-notes-medical {
+  font-size: 25px;
+  margin-right: 10px;
+  color: red;
+}
+
+.fa-bookmark {
+  font-size: 25px;
+  margin-right: 10px;
+  color: purple;
+}
+
+.fa-user-friends {
+  font-size: 25px;
+  margin-right: 10px;
+  color: blue;
+}
+
+.line {
+  margin-top: 20px;
+  border-bottom: 1px solid grey;
+}
+
+.fa-utensils {
+  font-size: 25px;
+  margin-right: 10px;
+  color: #FFA500;
+}
+
+.fa-futbol {
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+.fa-calendar-check {
+  font-size: 25px;
+  margin-right: 10px;
+  color: #B22222;
+}
+
+.fa-gamepad {
+  font-size: 25px;
+  margin-right: 10px;
+  color: #1E90FF;
+}
+
+.fa-film {
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+.fa-cloud-sun-rain {
+  font-size: 25px;
+  margin-right: 10px;
+  color: #6495ED;
+}
+
+.fa-briefcase {
+  font-size: 25px;
+  margin-right: 10px;
+  color: #802b00;
+}
+
+.fa-video {
+  font-size: 25px;
+  margin-right: 10px;
+  color: red;
+}
+
+.container-input {
+  display: block;
+  display: flex;
+  justify-content: center;
+}
+
+#new-message-input {
+  width: 70%;
+}
+
+#time {
+  font-size: 10px;
+}
+
+.users img,
+.msg-sent img {
+  width: 50px;
+  height: 50px;
+  border: 1px solid grey;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.users {
+  height: 100%;
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.post p {
+  color: black;
+}
+
+.post-img {
+  margin-left: 5%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 90%;
+  height: 500px;
+  background-image: url(/images/paesaggio2.jpg?94893f2995cfd5e0242fd77753f05e14);
+}
+
+.scrollbar {
+  overflow: auto;
+}
+
+.messages {
+  /* box-shadow: 10px 10px 10px 0px red; */
+}
+
+/* .msg-sent:after{
+  content: " ";
+  display: table;
+  clear: both;
+} */
+
+.msg-received {
+  width: 35%;
+  height: auto;
+  background-color: grey;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.msg-sent {
+  height: 100%;
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+span {
+  margin: 10px;
+}
+
+/* MSG INPUT */
+
+#template-message-sent {
+  height: 100%;
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  display: none;
+}
+
+.container-input {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#btn {
+  width: 150px;
+  margin-left: 20px;
+}
+

@@ -12,6 +12,8 @@ require('./bootstrap');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
+require('./components/Example');
+
 require('./components/Stories');
 require('./components/Stories1');
 require('./components/Stories2');
@@ -21,4 +23,5 @@ require('./components/list-left');
 require('./components/NewPost');
 require('./components/NewPost1');
 require('./components/NewPost2');
+require('./components/app');
 require('./components/app1');

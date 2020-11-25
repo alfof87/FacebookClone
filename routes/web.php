@@ -14,7 +14,3 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/show', function(){
   return view('show');
 });
-
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');

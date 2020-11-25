@@ -1,23 +1,9 @@
 @extends('layouts.app')
 
 @section('content')
+
 <div class="container">
     <div class="row justify-content-center">
-        {{-- <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">{{ __('Dashboard') }}</div>
-
-                <div class="card-body">
-                    @if (session('status'))
-                        <div class="alert alert-success" role="alert">
-                            {{ session('status') }}
-                        </div>
-                    @endif
-
-                    {{ __('You are logged in!') }}
-                </div>
-            </div>
-        </div> --}}
         <div class="col-md-2">
           <div id="list-left"></div>
         </div>
@@ -27,7 +13,6 @@
             <div id="stories1"></div>
             <div id="stories2"></div>
             <div id="stories3"></div>
-
         </div>
 
         <div class="container-input">
@@ -51,13 +36,6 @@
     <div class="scrollbar">
 
         <div id="target" class="messages scrollbar">
-          {{-- <div class="">
-
-          </div>
-
-          <div class="">
-
-          </div> --}}
 
         </div>
 
@@ -81,7 +59,7 @@
     </div>
 
     <div class="col-md-2">
-      
+
     </div>
 
 </div>

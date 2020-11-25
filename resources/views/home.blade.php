@@ -47,12 +47,12 @@
 
       <div class="users">
         <img src="{{ asset('img/user3.jpeg') }}" alt="">
-        <span class="time"></span>
+        <span class="time1"></span>
         <div id="newpost1"></div>
       </div>
       <div class="users">
         <img src="{{ asset('img/user2.png') }}" alt="">
-        <span class="time"></span>
+        <span class="time2"></span>
         <div id="newpost2"></div>
       </div>
 

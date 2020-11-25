@@ -13,7 +13,8 @@ var moment = require('moment');
 
 function NewPost2() {
   var day = moment().format('D/M h:mm');
-  $("#time").append(day);
+  var day2 = moment().subtract(3, 'hours').format('D/M h:mm');
+  $(".time2").append(day2);
     return (
         <div className="post">
           <p><strong>Maria Neri</strong></p>

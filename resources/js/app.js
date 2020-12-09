@@ -23,4 +23,7 @@ require('./components/list-left');
 require('./components/NewPost');
 require('./components/NewPost1');
 require('./components/NewPost2');
-require('./components/app1');
+require('./components/TimePost');
+// require('./components/app1');
+// require('./components/Profile');
+// require('./components/App');

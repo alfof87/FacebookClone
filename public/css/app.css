@@ -10954,7 +10954,7 @@ footer {
   justify-content: center;
 }
 
-p {
+.stories-container p {
   margin: 10px;
   color: white;
 }
@@ -11123,7 +11123,7 @@ p {
 }
 
 .users {
-  height: 100%;
+  height: auto;
   border: 1px solid grey;
   border-radius: 5px;
   margin-bottom: 20px;
@@ -11166,7 +11166,7 @@ p {
 }
 
 .msg-sent {
-  height: 100%;
+  height: auto;
   border: 1px solid grey;
   border-radius: 5px;
   margin-bottom: 20px;
@@ -11198,5 +11198,85 @@ span {
 #btn {
   width: 150px;
   margin-left: 20px;
+}
+
+#cover-img {
+  height: 300px;
+  background-image: url(/images/space.jpg?68e4bdb9b31478907b29356f4ce0f264);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.profile-picture img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+hr {
+  color: black;
+  width: 100%;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+}
+
+#left-menu {
+  width: 35%;
+  height: auto;
+}
+
+#left-menu div,
+h4,
+p {
+  color: black;
+}
+
+#left-menu button {
+  width: 95%;
+  height: 50px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+#right-menu {
+  background-color: #DCDCDC;
+  width: 60%;
+  height: auto;
+  border-radius: 5px;
+}
+
+#content-menu {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 200px;
+}
+
+.recap,
+.foto {
+  background-color: #DCDCDC;
+  border-radius: 5px;
+}
+
+.evidents-imgs {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.evidents-imgs img {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+}
+
+#img-public img {
+  width: 95%;
+  height: auto;
+  border-radius: 0;
 }
 

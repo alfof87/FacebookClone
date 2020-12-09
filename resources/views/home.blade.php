@@ -15,12 +15,12 @@
             <div id="stories3"></div>
         </div>
 
-        <div class="container-input">
-          <input id="new-message-input" type="text" placeholder="A cosa stai pensando?" name="" value="">
-          <button id="btn" type="button" name="button"><strong>Pubblica</strong></button>
-       </div>
+      <div class="container-input">
+        <input id="new-message-input" type="text" placeholder="A cosa stai pensando?" name="" value="">
+        <button id="btn" type="button" name="button"><strong>Pubblica</strong></button>
+      </div>
 
-       <div id="template-message-sent">
+      <div id="template-message-sent">
         <div class="msg-sent">
           <img src="{{ asset('img/profile.jpg') }}" alt="">
           <span class="time"></span>
@@ -30,9 +30,8 @@
           <div class="">
             <span id="message-sent"></span>
           </div>
-
-        </div>
-    </div>
+         </div>
+      </div>
     <div class="scrollbar">
 
         <div id="target" class="messages scrollbar">
